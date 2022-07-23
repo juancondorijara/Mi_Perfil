@@ -1,0 +1,136 @@
+
+/**** LIGHT ****/
+
+.loading-overlay,
+.section-about,
+.section-skills .professional-skills,
+.section-skills .additional-skills,
+.section-education .education-content,
+.section-experience .icon-experience,
+.section-experience .experience-content,
+.section-pricing .pricing-content,
+.section-testimonials .swiper-slide,
+.section-blog .blog-content,
+.section-contact-us .form-content,
+.section-contact-us .info-content,
+.section-portfolio .filter-portfolio li:hover,
+.scroll-top,
+.theme-option,
+.theme-option .open-theme,
+.more-blog .pagination-blog a {
+	background-color: #ffffff;
+}
+
+.content {
+	background-color: #efefef;
+	color: #000000;
+}
+
+.section-about .download-resume,
+.section-about .text-available,
+.section-about h3,
+.section-about .title-info,
+.section-about .title-links,
+.section-about .li-social-links a,
+.section-skills,
+.section-skills .title-progress span,
+.section-education .ul-education,
+.section-experience .icon-experience,
+.section-experience .company-name,
+.section-portfolio .filter-portfolio li,
+.section-pricing .pricing-title h3,
+.section-pricing .pricing-detail .line-detail,
+.section-testimonials .personal-info span,
+.section-blog h4,
+.scroll-top,
+.theme-option .open-theme,
+.more-blog .pagination-blog a,
+.single-blog blockquote,
+.single-blog .archive li {
+	color: #757575;
+}
+
+.section-about h2 span,
+.theme-option .open-theme:hover {
+	color: #000000;
+}
+
+.section-about .li-social-links a:hover,
+.section-skills h3,
+.section-education h3,
+.section-experience .period-experience,
+.section-portfolio .filter-portfolio li.active,
+.section-portfolio .item-overlay,
+.section-pricing .most-populaire span,
+.section-pricing .pricing-price,
+.section-pricing .line-detail .new,
+.section-pricing .pricing-buy h3,
+.section-testimonials p,
+.section-interests h4,
+.section-blog .read-more,
+.section-blog .load-more span,
+.section-contact-us .info-icon,
+.section-contact-us .info-text,
+.section-contact-us .social-links li,
+.menu,
+.section-contact-us input[type="submit"],
+.more-blog .pagination-blog a.active,
+.more-blog .pagination-blog a:hover,
+.single-blog .comments .reply,
+.single-blog .leave-comment input[type="submit"],
+.single-blog .tags li a {
+	color: #ffffff;
+}
+
+.section-skills .progress,
+.section-pricing div[class^="col-"]:nth-child(1) .pricing-price,
+.section-pricing div[class^="col-"]:nth-child(3) .pricing-price,
+.section-pricing div[class^="col-"]:nth-child(1) .pricing-buy,
+.section-pricing div[class^="col-"]:nth-child(3) .pricing-buy,
+.section-blog .read-more:hover,
+.section-blog .load-more span,
+.section-contact-us input[type="submit"]:hover,
+.section-contact-us .info-text,
+.single-blog .line,
+.single-blog .leave-comment input[type="submit"]:hover,
+.single-blog .tags li a:hover {
+	background-color: #757575;
+}
+
+.section-about .li-social-links a {
+	border: 1px solid #757575;
+}
+
+.section-experience .all-experience {
+	border-left: 5px solid #ffffff;
+}
+
+.section-contact-us input,
+.section-contact-us textarea,
+.single-blog .leave-comment input,
+.single-blog .leave-comment textarea {
+	border-bottom: 1px solid #cacaca;
+	color: #202020;
+}
+
+.section-contact-us .info-text::before {
+	border-right-color: #757575;
+}
+
+.menu h2 {
+	border: 4px solid #ffffff;
+}
+
+.menu a.active,
+.menu a:hover {
+	border-right: 6px solid #ffffff;
+	border-left: 6px solid #ffffff;
+}
+
+.theme-option .light span {
+	border: 1px solid #000000;
+}
+
+.single-blog blockquote {
+	background-color: #ededed;
+}

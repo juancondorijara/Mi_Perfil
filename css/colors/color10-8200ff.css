@@ -1,0 +1,73 @@
+
+/****  C0LOR10 #8200ff ****/
+
+.loading-overlay .spinner > div,
+.section-about .li-social-links a:hover,
+.section-skills h3,
+.section-skills .progress-bar,
+.section-education h3,
+.section-experience .experience-content::before,
+.section-experience .period-experience,
+.section-portfolio .filter-portfolio li.active,
+.section-pricing div[class^="col-"]:nth-child(2) .pricing-price,
+.section-pricing div[class^="col-"]:nth-child(2) .pricing-buy,
+.section-testimonials .personal-text,
+.section-testimonials span.swiper-pagination-bullet-active,
+.section-interests .swiper-slide,
+.section-blog .read-more,
+.section-contact-us input[type="submit"],
+.section-contact-us .info-icon,
+.section-contact-us .social-links,
+.menu,
+.menu .open-menu,
+.more-blog .pagination-blog a.active,
+.more-blog .pagination-blog a:hover,
+.single-blog .comments .reply,
+.single-blog .leave-comment input[type="submit"],
+.single-blog .tags li a {
+	background-color: #8200ff;
+}
+
+.section h2,
+.section-about .available i,
+.section-skills .other-skills i,
+.section-experience .specialty-name,
+.section-testimonials h3,
+.section-blog .blog-detail ul,
+.section-contact-us h3,
+.single-blog .comments h3,
+.single-blog .comments .name,
+.single-blog .load-more-comments h3,
+.single-blog .leave-comment h3,
+.single-blog .populaire-posts h3,
+.single-blog .tags h3,
+.single-blog .archive h3 {
+	color: #8200ff;
+}
+
+.section-about .li-social-links a:hover {
+	border-color: #8200ff;
+	box-shadow: 0 0 3px #8200ff;
+}
+
+.section-education h3::before {
+	border-top-color: #6007b6;
+	border-right-color: #6007b6;
+}
+
+.section-contact-us input:focus,
+.section-contact-us textarea:focus,
+.single-blog .leave-comment input:focus,
+.single-blog .leave-comment textarea:focus {
+	border-bottom-color: #8200ff;
+}
+
+.theme-option,
+.theme-option .open-theme {
+	border: 2px solid #8200ff;
+	border-right: none;
+}
+
+.single-blog blockquote {
+	border-left: 6px solid #8200ff;
+}

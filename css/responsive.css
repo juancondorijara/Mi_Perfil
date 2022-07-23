@@ -1,0 +1,303 @@
+/**** Meduim Screen ****/
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	
+}
+
+/**** Small Screen ****/
+
+@media (min-width: 767px) and (max-width: 991px)
+{
+
+	/**** 5-1 - ABOUT ****/
+
+	.section-about .title-info {
+		width: 65px;
+	}
+
+	.section-about .title-info,
+	.section-about .title-links,
+	.section-about .info,
+	.section-about p {
+		font-size: 16px;
+	}
+
+	/**** 5-2 - SKILLS ****/
+
+	.section-skills .professional-skills {
+		margin-bottom: 70px;
+	}
+
+	.section-skills .chart-percentage {
+		top: 60px;
+	}
+
+	.section-skills .chart canvas {
+		width: 150px;
+		height: 150px;
+	}
+
+	/**** 5-3 - EDUCATION ****/
+
+	.section-education h3 {
+		padding: 15px 30px;
+	}
+
+	.section-education .education-icon {
+		width: 17px;
+	}
+
+	/**** 5-4 - EXPERIENCE ****/
+
+	.section-experience .period-experience {
+		left: 15px;
+		width: 156px;
+	}
+
+	/**** 5-5 - PORTFOLIO ****/
+
+	.section-portfolio h3 {
+		font-size: 20px;
+	}
+
+	/**** 5-10 - CONTACT-US ****/
+
+	.section-contact-us .info-icon {
+		width: 39px;
+		height: 39px;
+		padding-top: 6px;
+	}
+
+	.section-contact-us .info-text {
+		padding: 8px 10px;
+		font-size: 16px;
+	}
+
+	.section-contact-us .info-text::before {
+		margin-top: 4px;
+		margin-left: -26px;
+	}
+
+}
+
+/**** Tablette ****/
+
+@media (min-width: 469px) and (max-width: 767px)
+{
+
+	/**** 4 - SCROLL-TOP ****/
+
+	.scroll-top {
+		width: 40px;
+		height: 40px;
+		right: 15px;
+		bottom: 25px;
+		line-height: 40px;
+	}
+
+	/**** 5-1 - ABOUT ****/
+
+	.section-about .photo-profile img {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.section-about .download-resume {
+		width: 80%;
+		margin: 0 auto 25px;
+	}
+
+	.section-about .available {
+		margin-bottom: 50px;
+	}
+
+	.section-about h2 {
+		font-size: 35px;
+	}
+
+	/**** 5-2 - SKILLS ****/
+
+	.section-skills .professional-skills {
+		margin-bottom: 70px;
+	}
+
+	.section-skills .chart-percentage {
+		top: 60px;
+	}
+
+	.section-skills .chart canvas {
+		width: 150px;
+		height: 150px;
+	}
+
+	.section-skills .other {
+		text-align: center;
+	}
+
+	/**** 5-4 - EXPERIENCE ****/
+
+	.section-experience .period-experience {
+		left: 15px;
+		width: 156px;
+	}
+
+	/**** 5-5 - PORTFOLIO ****/
+
+	.section-portfolio .item-overlay .icon-search,
+	.section-portfolio .item-overlay .icon-plus {
+		font-size: 25px;
+	}
+
+	.section-portfolio h3 {
+		margin-top: 30px;
+	}
+
+	/**** 5-6 - BLOG ****/
+
+	.single-blog .row > div:nth-child(2) .first-div {
+		margin-top: 30px;
+	}
+
+	/**** 5-10 - CONTACT-US ****/
+
+	.section-contact-us .social-links li {
+		margin: 20px 15px;
+	}
+
+	.section-contact-us .info-content {
+		min-height: 0;
+	}
+
+}
+
+/**** Mobile ****/
+
+@media (max-width: 470px)
+{
+
+	/****  COMMON SECTIONS STYLE ****/
+
+	.section h2 {
+		font-size: 35px;
+	}
+
+	/**** 3 - THEME-OPTION ****/
+
+	.theme-option .open-theme {
+		width: 38px;
+		height: 35px;
+		left: -38px;
+		padding-top: 4px;
+		font-size: 16px;
+	}
+
+	/**** 4 - SCROLL-TOP ****/
+
+	.scroll-top {
+		width: 40px;
+		height: 40px;
+		right: 15px;
+		bottom: 25px;
+		font-size: 15px;
+		line-height: 40px;
+	}
+
+	/**** 5-1 - ABOUT ****/
+
+	.section-about .available {
+		margin-bottom: 40px;
+	}
+
+	.section-about h2 {
+		font-size: 35px;
+	}
+
+	/**** 5-2 - SKILLS ****/
+
+	.section-skills .professional-skills {
+		margin-bottom: 70px;
+	}
+
+	.section-skills .other {
+		text-align: center;
+	}
+
+	/**** 5-3 - EDUCATION ****/
+
+	.section-education h3 {
+		padding: 15px 25px;
+	}
+
+	/**** 5-4 - EXPERIENCE ****/
+
+	.section-experience .icon-experience,
+	.section-experience .all-experience {
+		margin-left: 0;
+	}
+
+	.section-experience .period-experience {
+		position: static;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-bottom: 12px;
+		width: 100%;
+	}
+
+	.section-experience .experience-content::before {
+		left: 11px;
+		margin-top: 8px;
+	}
+
+	/**** 5-5 - PORTFOLIO ****/
+
+	.section-portfolio .item-overlay {
+		padding: 20px;
+	}
+
+	.section-portfolio .item-overlay .icon-search,
+	.section-portfolio .item-overlay .icon-plus {
+		font-size: 15px;
+	}
+
+	/**** 5-6 - BLOG ****/
+
+	.single-blog .row > div:nth-child(2) .first-div {
+		margin-top: 30px;
+	}
+
+	.section-blog .blog-detail {
+		padding: 15px;
+	}
+
+	/**** 5-10 - CONTACT-US ****/
+
+	.section-contact-us .form-content,
+	.section-contact-us .info-content  {
+		padding: 25px 15px 30px;
+	}
+
+	.section-contact-us .info-content {
+		min-height: 0;
+	}
+
+	.section-contact-us .info-icon {
+		width: 39px;
+		height: 39px;
+		padding-top: 7px;
+	}
+
+	.section-contact-us .info-text {
+		padding: 8px 10px;
+	}
+
+	.section-contact-us .info-text::before {
+		margin-top: 4px;
+		margin-left: -26px;
+	}
+
+	.section-contact-us .social-links li {
+		margin: 20px;
+	}
+
+}
